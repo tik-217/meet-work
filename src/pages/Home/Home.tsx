@@ -1,3 +1,9 @@
+import { Title } from "@mantine/core";
+
 export function Home() {
-  return <>NextJS App</>;
+  return (
+    <>
+      <Title order={1}>NextJS App</Title>
+    </>
+  );
 }
